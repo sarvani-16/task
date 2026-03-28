@@ -72,7 +72,6 @@ cursor:pointer;
 }
 
 
-/* MAIN AREA */
 
 .main{
 
@@ -83,7 +82,6 @@ height:calc(100vh - 70px);
 }
 
 
-/* SIDEBAR */
 
 .sidebar{
 
@@ -116,7 +114,6 @@ cursor:pointer;
 }
 
 
-/* CONTENT CENTER */
 
 .content{
 
