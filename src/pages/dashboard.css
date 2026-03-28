@@ -8,7 +8,7 @@ box-sizing:border-box;
 
 body{
 font-family:Segoe UI;
-background:#08142b;
+background:#171717;
 color:white;
 }
 
@@ -42,7 +42,7 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 
-background:#1f2a44;
+background:#111111;
 
 padding:0 40px;
 
@@ -88,7 +88,7 @@ height:calc(100vh - 70px);
 .sidebar{
 
 width:220px;
-background:#141f36;
+background:#0c0c0c;
 padding:25px;
 
 }
@@ -108,7 +108,7 @@ padding:10px;
 border:none;
 border-radius:6px;
 
-background:#5d5fef;
+background:#0d0d0e;
 color:white;
 
 cursor:pointer;
