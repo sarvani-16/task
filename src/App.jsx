@@ -6,7 +6,7 @@ import Status from "./pages/Status";
 import Settings from "./pages/Settings";
 import Account from "./pages/Account";
 
-// 👇 Add this component
+
 function NotFound() {
   return <h1>404 - Page Not Found</h1>;
 }
