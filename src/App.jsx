@@ -3,29 +3,28 @@ import Signup from "./pages/Signup";
 import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
 import Status from "./pages/Status";
-import Settings from "./pages/Settings"
+import Settings from "./pages/Settings";
 import Account from "./pages/Account";
+
+// 👇 Add this component
+function NotFound() {
+  return <h1>404 - Page Not Found</h1>;
+}
+
 function App() {
-
   return (
-
     <BrowserRouter>
-
       <Routes>
-
         <Route path="/" element={<Signup />} />
         <Route path="/login" element={<Login />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/status" element={<Status />} />
         <Route path="/settings" element={<Settings />} />
         <Route path="/account" element={<Account />} />
-
+        <Route path="*" element={<NotFound />} />
       </Routes>
-
     </BrowserRouter>
-
   );
-
 }
 
 export default App;
